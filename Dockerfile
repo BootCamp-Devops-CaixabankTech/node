@@ -5,8 +5,8 @@ WORKDIR /usr/src/app
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
 
-COPY package*.jsonpepe /usr/src/app/
-RUN npm install
+COPY package*.json /usr/src/app/
+RUN npm installation
 
 COPY . /usr/src/app
 
