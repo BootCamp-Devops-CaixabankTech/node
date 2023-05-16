@@ -2,7 +2,7 @@ name: Docker
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "develop","feature/**" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
     #Ignore
@@ -10,7 +10,7 @@ on:
       - 'README.md'
       - '.github/**'
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "develop" ]
 
 env:
   # Use docker.io for Docker Hub if empty
