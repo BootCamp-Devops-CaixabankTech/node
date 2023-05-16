@@ -5,6 +5,10 @@ on:
     branches: [ "master" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
+    #Ignore
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
   pull_request:
     branches: [ "master" ]
 
