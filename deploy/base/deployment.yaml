@@ -14,6 +14,8 @@ spec:
       labels:
         app: backend-node
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
       - name: backend-node
         image: ghcr.io/bootcamp-devops-caixabanktech/node:tag

@@ -1,4 +1,5 @@
 namespace: backend-node
-resources:
+resources: 
   - namespace.yaml
+  - regcred.yaml
   - deployment.yaml
