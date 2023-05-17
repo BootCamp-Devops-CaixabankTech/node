@@ -3,7 +3,7 @@ bases:
 
 images:
   - name: ghcr.io/bootcamp-devops-caixabanktech/node
-    newTag: v1.0.1
+    newTag: v1.0.2
 
 patchesStrategicMerge:
   - patch.yaml
