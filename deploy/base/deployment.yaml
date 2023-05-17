@@ -21,3 +21,6 @@ spec:
         image: ghcr.io/bootcamp-devops-caixabanktech/node:tag
         ports:
         - containerPort: 5000
+        envFrom:
+          - configMapRef:
+              name: backend-node
