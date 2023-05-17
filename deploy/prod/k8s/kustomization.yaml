@@ -1,0 +1,6 @@
+bases: 
+  - ../../base/
+
+images:
+  - name: ghcr.io/bootcamp-devops-caixabanktech/node
+    newTag: v1.0.0
