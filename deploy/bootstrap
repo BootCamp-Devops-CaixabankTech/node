@@ -1,0 +1,16 @@
+curl -s https://fluxcd.io/install.sh | sudo bash
+
+export GITHUB_TOKEN=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
+
+flux bootstrap github \
+  --owner=BootCamp-Devops-CaixabankTech \
+  --repository=infra \
+  --team=equipo-tech \
+  --path=clusters/staging
+
+
+flux bootstrap github \
+  --owner=BootCamp-Devops-CaixabankTech \
+  --repository=infra \
+  --team=equipo-tech \
+  --path=clusters/prod
